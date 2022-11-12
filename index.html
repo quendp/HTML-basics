@@ -38,77 +38,158 @@
                      </p>
                   </div>
                </section>
-               <section id="html-section">
-                  <div class="section-container">
+               <section id="html-section"> <!-- HTML Section -->
+                  <div class="section-container flex-column main-column">
                      <h2>
                         What is HTML?
                      </h2>
-                     <div>
+                     <p>
+                        HTML stands for <strong>HyperText Markup Language</strong>. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes.
+                     </p>
+                     <div class="flex-row main-row">
+                        <img src="sources/img-html-section.png" alt="Example of an HTML code and website" width="100%" height="auto">
+                        <div>
+                           <p>
+                              HTML has a lot of use cases, namely:
+                           </p>
+                           <ul>
+                              <li><strong>Web development.</strong> Developers use HTML code to design how a browser displays web page elements. </li>
+                              <li><strong>Internet navigation.</strong> Users can easily navigate and insert links between related pages and websites.</li>
+                              <li><strong>Web documentation.</strong> HTML makes it possible to organize and format documents.</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section id="elements-section">  <!-- Elements Section -->
+                  <div class="section-container flex-column main-column">
+                     <h2>What are HTML Elements?</h2>
+                     
+                     <div class="flex-row main-row">
                         <p>
-                           HTML stands for <strong>HyperText Markup Language</strong>. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes.
-                           <br><br>HTML has a lot of use cases, namely:
+                           The element usually starts with an opening tag, which consists of the name of the element. It's wrapped in opening and closing angle brackets. The opening tag indicates where the element begins. Similar to the opening tag, the closing tag is also wrapped in opening and closing angle brackets. But it also includes a forward slash before the element's name. Everything inside the opening and closing tags is the content.
                         </p>
-                        <ul>
-                           <li><strong>Web development.</strong> Developers use HTML code to design how a browser displays web page elements, such as text, hyperlinks, and media files. </li>
-                           <li><strong>Internet navigation.</strong> Users can easily navigate and insert links between related pages and websites as HTML is heavily used to embed hyperlinks. </li>
-                           <li><strong>Web documentation.</strong> HTML makes it possible to organize and format documents, similarly to Microsoft Word.</li>
-                        </ul>
+                        <img src="sources/img-element-section.png" alt="Illustration of an HTMl element structure" width="100%" height="auto">
+                        
+                     </div>
+                     <p>
+                         But not all elements follow this pattern. We call those that don't empty elements. They only consist of a single tag or an opening tag that cannot have any content. These elements are typically used to insert or embed something in the document. They can be classified into two categories:
+                    </p>
+                     <div class="flex-row split-row">
+                        <div class="split-item">
+                           <h3>Block-Level Elements</h3>
+                           <p>A block-level element takes up the entire width of a page. It always starts a new line in the document. For example, a heading element will be in a separate line from a paragraph element.
+                           </p>
+                        </div>
+                        <div class="split-item">
+                           <h3>Inline Elements</h3>
+                           <p>An inline element formats the inner content of block-level elements, such as adding links and emphasized strings. Inline elements are most commonly used to format text without breaking the flow of the content.
+                           </p>
+                        </div>
                      </div>
                   </div>
                </section>
-               <section class="bg-glass" id="elements-section">
-                  <div class="section-container flex-column">
-                     <div>
-                        <h2>Block-Level Elements</h2>
-                        <p>A block-level element takes up the entire width of a page. It always starts a new line in the document. For example, a heading element will be in a separate line from a paragraph element.
-                           <br><br>
-                           Some examples are:
+               <section id="tags-section"> <!-- Tags Section -->
+                  <div class="section-container">
+                     <div class="tag-container flex-column main-column">
+                        <h2>
+                           HTML Tags
+                        </h2>
+                        <p>
+                           An HTML tag is commonly defined as a set of characters constituting a formatted command for a Web page. At the core of HTML, tags provide the directions or recipes for the visual content that one sees on the Web.
                         </p>
-                        <ul>
-                           <li>address</li>
-                           <li>article</li>
-                           <li>div</li>
-                           <li>h1</li>
-                           <li>header</li>
-                           <li>li</li>
-                           <li>main</li>
-                           <li>nav</li>
-                           <li>ol</li>
-                           <li>p</li>
-                           <li>table</li>
-                        </ul>
-                     </div>
-                     <div>
-                        <h2>Inline Elements</h2>
-                        <p>An inline element formats the inner content of block-level elements, such as adding links and emphasized strings. Inline elements are most commonly used to format text without breaking the flow of the content. 
-                           <br><br>
-                           Some examples are:
-                        </p>
-                        <ul>
-                           <li>a</li>
-                           <li>button</li>
-                           <li>cite</li>
-                           <li>code</li>
-                           <li>data</li>
-                           <li>em</li>
-                           <li>i</li>
-                           <li>select</li>
-                           <li>span</li>
-                           <li>time</li>
-                           <li>video</li>
-                        </ul>
+                        <div>
+                           <h3>
+                              Block-level Tags
+                           </h3>
+                           <div class="tags-section">
+                           <ul>
+                                 <li><code>&lt;adress&gt;</code></li>
+                                 <li><code>&lt;article&gt;</code></li>
+                                 <li><code>&lt;div&gt;</code></li>
+                                 <li><code>&lt;h1&gt;</code></li>
+                                 <li><code>&lt;header&gt;</code></li>
+                                 <li><code>&lt;li&gt;</code></li>
+                                 <li><code>&lt;main&gt;</code></li>
+                                 <li><code>&lt;nav&gt;</code></li>
+                                 <li><code>&lt;ol&gt;</code></li>
+                                 <li><code>&lt;p&gt;</code></li>
+                                 <li><code>&lt;table&gt;</code></li>
+                            </ul>
+                              </div>
+                        </div>
+                        <div>
+                           <h3>
+                              Inline Tags
+                           </h3>
+                           <div class="tags-section">
+                              <ul>
+                                 <li><code>&lt;a&gt;</code></li>
+                                 <li><code>&lt;button&gt;</code></li>
+                                 <li><code>&lt;cite&gt;</code></li>
+                                 <li><code>&lt;code&gt;</code></li>
+                                 <li><code>&lt;data&gt;</code></li>
+                                 <li><code>&lt;em&gt;</code></li>
+                                 <li><code>&lt;i&gt;</code></li>
+                                 <li><code>&lt;select&gt;</code></li>
+                                 <li><code>&lt;span&gt;</code></li>
+                                 <li><code>&lt;time&gt;</code></li>
+                                 <li><code>&lt;video&gt;</code></li>
+                              </ul>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </section>
-               <section id="tags-section">
-
-               </section>
-               <section id="attributes-section">
-
+               <section id="attributes-section"> <!-- Attributes Section -->
+                  <div class="section-container flex-column main-column">
+                     <h2>
+                        What are HTML Attributes?
+                     </h2>
+                     <p>
+                        Elements also have attributes, which contain extra information about the element that will not appear in the content.
+                     </p>
+                     <div class="flex-row main-row">
+                        <img src="sources/img-attribute-section.png" alt="Illustration of HTML attributes structure" width="100%" height="auto">
+                        <div class="flex-column">
+                           <p>
+                              With this example, you can see the following characteristics of attributes:
+                           </p>
+                           <ol>
+                              <li>There is a space between attributes and the element name</li>
+                              <li>Attributes are added in the opening tag</li>
+                              <li>Attributes are added in the opening tag</li>
+                              <li>Attributes usually have a name and a value: name=“value”</li>
+                           </ol>
+                        </div>
+                     </div>
+                  </div>
                </section>
             </div>
          </main>
-         <footer id="about">
+         <footer id="about"> <!-- Footer About Section -->
+            <div class="footer-container flex-row">
+               <div class="flex-column footer-item-1">
+                  <h2>
+                     About this project
+                  </h2>
+                  <p>
+                     This project is the first activity in our coding bootcamp. The goal is to simply apply basic HTML elements on a website and apply what we've learned in our first week. It also took me about 6 hours combined time to create it from start to finish.
+                  </p>
+                  <p>
+                     I used a dark theme since it is November and it's never too late for Halloween.. right? Anyway I think my structure is very unorgranized and inefficient, so, there's still a lot of room for improvement. I wasn't really satisfied with the final outcome and the css is also a mess. However, it ia a pretty fun activity and I'd like to enjoy front-end development as much as possible because the backend seems creepier than my Halloween theme. Have a nice day, thank you.
+                  </p>
+               </div>
+               <div class="flex-column footer-item-2">
+                  <p>
+                     Credits to FreeCodeCamp.org for the content I used on this project. <br>
+                     <a href="https://www.freecodecamp.org/news/html-basics-for-beginners/">"Learn HTML Basics for Beginners in Just 15 Minutes"</a>
+                  </p>
+                  <a href="https://github.com/quendp/HTML-basics"><button>View GitHub Repository</button></a>
+                  <a href="https://quendp.github.io/HTML-basics/"><button>View Live Website on GitHub Pages</button></a>
+               </div>
+            </div>
+            <p style="text-align: center; font-size: 14px;">Made by Quen Del Pilar | November 12, 2022</p>
          </footer>
       </div>
    </body>
