@@ -29,5 +29,4 @@ Spoiler alert! Messy code ahead! This is also one of my quick projects so don't 
 
 
 ### 💛 Credits 
-<CREDITS>
-- FreeCodeCamp.org for the content I used on this project: [Learn HTML Basics for Beginners in Just 15 Minutes](https://www.freecodecamp.org/news/html-basics-for-beginners/)
+FreeCodeCamp.org for the content I used on this project: [Learn HTML Basics for Beginners in Just 15 Minutes](https://www.freecodecamp.org/news/html-basics-for-beginners/)
